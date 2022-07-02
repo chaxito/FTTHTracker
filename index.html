@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/saflogo2.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"/> -->
+    <title>FTTH Tracker</title>
+    <h3>FTTH Tracker</h3>
+    
+  <!-- background -->
+  <style>
+    body {
+        background-image: url('images/network1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+    <div class="sideright">
+      <img src="images/logo.png" alt="saf image">
+    </div>
+  </head>
+<!-- start of body -->
+  <body>
+    <div id="progress">
+      <div id="progress-bar"></div>
+      <ul id="progress-num">
+        <li class="step active">Ticket Raised</li>
+        <li class="step">Technician Deployed</li>
+        <li class="step">Confirmation</li>
+        <li class="step">Technician On Site</li>
+        <li class="step">Resolved</li>
+      </ul>
+    </div>
+    <button id="progress-prev" class="btn" disabled>Prev</button>
+    <button id="progress-next" class="btn">Mark as Done</button>
+    <!-- link to js -->
+    <script src="script.js"></script>
+   <!-- footer -->
+   <div class="footer">
+      <p>© 2022 FTTH Tracker. All rights reserved | Design by <a href="https://github.com/moringagroup1/FTTHTracker" target="_blank">Group 1 Capstone Project</a></p>
+  </div>
+<!-- / footer -->
+  </body>
+</html>
