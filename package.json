@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "ftthtracker",
+  "description": "<!-- Introduction of Author -->\r Author of this repository consists of members of Group1 Class DevOps at Moringa School. Member include;\r <ul>\r <li>Charles Muli - Product Owner</li>\r <li>Jimmy Kiarie (back end)-Developer</li>\r <li>Mercy Komen (front end)-Developer</li>\r <li>Ferdinand Mulimi (back end)-Developer</li>\r <li>Zipporah Marasi -scrum master</li>\r </ul>",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaxito/FTTHTracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaxito/FTTHTracker/issues"
+  },
+  "homepage": "https://github.com/chaxito/FTTHTracker#readme"
+}
