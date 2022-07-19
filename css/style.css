@@ -5,7 +5,7 @@
 }
 #progress-bar {
   position: absolute;
-  background: lightseagreen;
+  background: rgb(32, 178, 66);
   height: 5px;
   width: 0%;
   top: 50%;
@@ -44,7 +44,7 @@
 }
 #progress-num .step.active {
   border-color: lightseagreen;
-  background-color: lightseagreen;
+  background-color: rgb(32, 178, 81);
   color: #fff;
 }
 .btn {
@@ -77,4 +77,8 @@ h3{
 a{
   color:white;
   font-family: "Century Gothic";
+}
+p{
+  font-family: "Century Gothic";
+  color: white;
 }

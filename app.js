@@ -6,7 +6,7 @@ const server = app.listen(3000, () => { // create a HTTP server on port 3000
 });
 
 app.use(express.static(__dirname, { // host the whole directory
-        extensions: ["html", "htm", "gif", "png"],
+        extensions: ["html", "htm", "gif", "png","jpg"],
     }))
 
 app.get("/", (req, res) => {
